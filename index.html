@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melinda Kay Maleski | Content Strategist & Generative AI Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .heading-font { font-family: 'Playfair Display', Georgia, serif; }
+        .section-header { position: relative; display: inline-block; }
+        .section-header:after { content: ''; position: absolute; bottom: -8px; left: 0; width: 60px; height: 3px; background: linear-gradient(to right, #1e3a8a, #3b82f6); border-radius: 3px; }
+        .resume-card { transition: transform .3s cubic-bezier(.4,0,.2,1), box-shadow .3s cubic-bezier(.4,0,.2,1); }
+        .resume-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+        .skill-pill { transition: all .2s ease; }
+        .skill-pill:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgb(30 58 138 / 0.2); }
+    </style>
+</head>
+<body class="bg-zinc-50 text-zinc-800">
+    <!-- Navbar -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-900 to-blue-600 rounded-2xl flex items-center justify-center"><span class="text-white font-bold text-2xl">MM</span></div>
+                <div><div class="font-semibold text-xl">Melinda Maleski</div><div class="text-[10px] text-zinc-500 -mt-1">CONTENT STRATEGIST & AI</div></div>
+            </div>
+            <div class="hidden md:flex gap-x-8 text-sm font-medium">
+                <a href="#summary" class="hover:text-blue-700">Summary</a>
+                <a href="#experience" class="hover:text-blue-700">Experience</a>
+                <a href="#skills" class="hover:text-blue-700">Skills</a>
+                <a href="#strengths" class="hover:text-blue-700">Strengths</a>
+            </div>
+            <div class="flex items-center gap-x-3">
+                <a href="https://github.com/melindabain11-dev/resume/raw/main/Melinda_Maleski_Resume_2026.pdf" class="px-5 py-2 text-sm font-semibold border rounded-3xl flex items-center gap-x-2"><i class="fa-solid fa-file-pdf text-red-500"></i> PDF</a>
+                <button onclick="window.print()" class="px-6 py-2 bg-zinc-900 text-white text-sm font-semibold rounded-3xl flex items-center gap-x-2"><i class="fa-solid fa-print"></i> <span class="hidden sm:inline">Print</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="max-w-6xl mx-auto px-6 pt-16 pb-20">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-7">
+                <div class="inline-flex items-center px-4 py-1.5 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full mb-6">
+                    <div class="w-2 h-2 bg-blue-600 rounded-full animate-pulse mr-2"></div>
+                    OPEN TO OPPORTUNITIES
+                </div>
+                <h1 class="text-6xl md:text-7xl font-bold tracking-tighter leading-none">Melinda Kay<br>Maleski</h1>
+                <div class="mt-3 text-3xl md:text-4xl font-medium text-zinc-700">Content Strategist &amp; Generative AI Specialist</div>
+                <p class="mt-6 max-w-md text-lg text-zinc-600">Award-winning sales leader (Top 5% nationwide) turned AI-powered content strategist. Bridging creativity, CX, and emerging technologies.</p>
+                <div class="mt-8 flex gap-4">
+                    <a href="#experience" class="px-8 py-4 bg-zinc-900 text-white font-semibold rounded-3xl text-sm flex items-center gap-x-3">VIEW EXPERIENCE <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="https://linkedin.com/in/melinda-maleski-23427b273" target="_blank" class="px-8 py-4 border font-semibold rounded-3xl text-sm flex items-center gap-x-3"><i class="fa-brands fa-linkedin"></i> LINKEDIN</a>
+                </div>
+                <div class="mt-8 flex gap-x-6 text-sm text-zinc-500">
+                    <div class="flex items-center gap-x-2"><i class="fa-solid fa-map-marker-alt"></i> Chesapeake, VA</div>
+                    <div><a href="mailto:MelindaMaleski@Gmail.com" class="hover:text-blue-600">MelindaMaleski@Gmail.com</a></div>
+                </div>
+            </div>
+            <div class="md:col-span-5 flex justify-center md:justify-end mt-10 md:mt-0">
+                <div class="w-72 h-72 bg-gradient-to-br from-blue-900 to-zinc-900 rounded-[4rem] flex items-center justify-center relative">
+                    <div class="w-[calc(100%-12px)] h-[calc(100%-12px)] bg-white rounded-[3.5rem] flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="text-7xl mb-3">👩🏻‍💼</div>
+                            <div class="font-semibold text-2xl">Melinda K. Maleski</div>
+                            <div class="text-xs text-zinc-500 tracking-widest">EST. 2013</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Summary -->
+    <section id="summary" class="max-w-6xl mx-auto px-6 py-16 border-t">
+        <div class="max-w-3xl">
+            <h2 class="section-header text-4xl font-semibold mb-8">Professional Summary</h2>
+            <div class="text-[17px] text-zinc-600 leading-relaxed space-y-4">
+                <p>Results-driven Content Strategist and Generative AI Specialist with a proven track record as an award-winning sales leader (multiple Top 5% nationwide). Expert in bridging creativity, customer experience, and emerging AI technologies.</p>
+                <p>Actively building expertise through ongoing freelance work and CodeSignal (Expert in GenAI Capability Awareness &amp; GenAI Limitation Awareness). High emotional intelligence (98/100) combined with CliftonStrengths <span class="font-semibold">Achiever | Learner | Relator | Responsibility | Woo</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="bg-white py-16 border-t">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="section-header text-4xl font-semibold mb-12">Professional Experience</h2>
+            <div class="space-y-8 max-w-4xl">
+                <div class="resume-card border border-zinc-200 rounded-3xl p-8">
+                    <div class="font-semibold text-2xl">Freelance Content Strategist &amp; Creative Director</div>
+                    <div class="text-blue-600 font-medium">Independent • 2023 – Present</div>
+                    <ul class="mt-5 space-y-2.5 text-[15px] text-zinc-600">
+                        <li>• Actively developing Generative AI content strategy for clients</li>
+                        <li>• Expert-level contributor on CodeSignal (GenAI Capability &amp; Limitation Awareness)</li>
+                        <li>• Tailored content solutions aligned with client needs and AI trends</li>
+                    </ul>
+                </div>
+                <div class="resume-card border border-zinc-200 rounded-3xl p-8">
+                    <div class="font-semibold text-2xl">Inbound Sales Representative</div>
+                    <div class="text-blue-600 font-medium">Cox Communications • Feb 2018 – Present</div>
+                    <ul class="mt-5 space-y-2.5 text-[15px] text-zinc-600">
+                        <li>• <span class="font-semibold">2024 Top Inbound Sales Agent</span>; multiple Winner’s Circle &amp; Circle of Excellence awards</li>
+                        <li>• Record-breaking revenue attainment impacting COE East performance</li>
+                        <li>• Built strong client relationships through consultative selling</li>
+                    </ul>
+                </div>
+                <div class="resume-card border border-zinc-200 rounded-3xl p-8">
+                    <div class="font-semibold text-2xl">Insurance Sales Representative</div>
+                    <div class="text-blue-600 font-medium">Liberty Mutual • Oct 2020 – April 2023</div>
+                    <ul class="mt-5 space-y-2.5 text-[15px] text-zinc-600">
+                        <li>• <span class="font-semibold">Circle of Excellence Champion – Top 5% nationwide</span> (2021 &amp; 2022)</li>
+                        <li>• Promoted from grade 70 to 73 for consistently exceeding expectations</li>
+                    </ul>
+                </div>
+                <div class="resume-card border border-zinc-200 rounded-3xl p-8">
+                    <div class="font-semibold text-2xl">Insurance Sales Specialist</div>
+                    <div class="text-blue-600 font-medium">GEICO • July 2013 – Oct 2017</div>
+                    <ul class="mt-5 space-y-2.5 text-[15px] text-zinc-600">
+                        <li>• <span class="font-semibold">Cycle Sales Elite Award – Top 10% country-wide</span> (2014-2016)</li>
+                        <li>• Trained new team members through side-by-side coaching</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-16 border-t">
+        <h2 class="section-header text-4xl font-semibold mb-10">Core Competencies</h2>
+        <div class="grid sm:grid-cols-2 gap-4 max-w-3xl">
+            <div class="skill-pill border px-6 py-5 rounded-3xl flex gap-4"><i class="fa-solid fa-robot text-3xl text-blue-600 mt-0.5"></i><div><div class="font-semibold">Generative AI Strategy &amp; Content Creation</div><div class="text-xs text-zinc-500">Expert on CodeSignal</div></div></div>
+            <div class="skill-pill border px-6 py-5 rounded-3xl flex gap-4"><i class="fa-solid fa-chart-line text-3xl text-blue-600 mt-0.5"></i><div class="font-semibold">High-Performance Sales &amp; Revenue Growth</div></div>
+            <div class="skill-pill border px-6 py-5 rounded-3xl flex gap-4"><i class="fa-solid fa-users text-3xl text-blue-600 mt-0.5"></i><div class="font-semibold">Customer Relationship Management</div></div>
+            <div class="skill-pill border px-6 py-5 rounded-3xl flex gap-4"><i class="fa-solid fa-brain text-3xl text-blue-600 mt-0.5"></i><div class="font-semibold">Emotional Intelligence (98/100)</div></div>
+        </div>
+    </section>
+
+    <!-- Strengths -->
+    <section id="strengths" class="bg-white py-16 border-t">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="section-header text-4xl font-semibold mb-10">Key Strengths &amp; Assessments</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl">
+                <div class="border border-blue-100 bg-blue-50 rounded-3xl p-8">
+                    <div class="flex justify-between items-start"><div><div class="text-xs font-bold text-blue-600 tracking-widest">TALENTSMART</div><div class="font-semibold text-2xl">Emotional Intelligence</div></div><div class="text-right"><div class="text-6xl font-bold text-blue-700">98</div><div class="text-xs -mt-2 text-blue-600">/100</div></div></div>
+                    <div class="mt-8 grid grid-cols-3 gap-4 text-center text-sm"><div><div class="text-xs text-zinc-500">Self-Awareness</div><div class="font-bold text-3xl text-blue-700">98</div></div><div><div class="text-xs text-zinc-500">Social Awareness</div><div class="font-bold text-3xl text-blue-700">90-100</div></div><div><div class="text-xs text-zinc-500">Relationship Mgmt</div><div class="font-bold text-3xl text-blue-700">89-97</div></div></div>
+                </div>
+                <div class="border rounded-3xl p-8">
+                    <div class="text-xs font-bold text-zinc-500 tracking-widest mb-4">GALLUP CLIFTONSTRENGTHS TOP 5</div>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="px-5 py-2 bg-white border rounded-3xl text-sm font-semibold flex items-center gap-x-2"><span class="text-amber-500">★</span> Achiever</div>
+                        <div class="px-5 py-2 bg-white border rounded-3xl text-sm font-semibold flex items-center gap-x-2"><span class="text-amber-500">★</span> Learner</div>
+                        <div class="px-5 py-2 bg-white border rounded-3xl text-sm font-semibold flex items-center gap-x-2"><span class="text-amber-500">★</span> Relator</div>
+                        <div class="px-5 py-2 bg-white border rounded-3xl text-sm font-semibold flex items-center gap-x-2"><span class="text-amber-500">★</span> Responsibility</div>
+                        <div class="px-5 py-2 bg-white border rounded-3xl text-sm font-semibold flex items-center gap-x-2"><span class="text-amber-500">★</span> Woo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="max-w-6xl mx-auto px-6 py-20 border-t">
+        <div class="bg-zinc-900 text-white rounded-[3rem] p-12 md:p-16 text-center">
+            <div class="max-w-md mx-auto">
+                <i class="fa-solid fa-rocket text-5xl mb-6 block"></i>
+                <h3 class="text-4xl font-semibold tracking-tight">Ready to bring excellence to your team?</h3>
+                <p class="mt-4 text-zinc-400">High EI • Award-winning results • Cutting-edge AI expertise</p>
+                <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:MelindaMaleski@Gmail.com" class="px-10 py-4 bg-white text-zinc-900 font-semibold rounded-3xl flex items-center justify-center gap-x-3"><i class="fa-solid fa-envelope"></i> LET'S CONNECT</a>
+                    <a href="https://linkedin.com/in/melinda-maleski-23427b273" target="_blank" class="px-10 py-4 border border-white/40 hover:bg-white/10 rounded-3xl flex items-center justify-center gap-x-3"><i class="fa-brands fa-linkedin"></i> LINKEDIN</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-zinc-900 text-zinc-400 py-10 text-center text-sm">
+        <div class="max-w-6xl mx-auto px-6">
+            © 2026 Melinda Kay Maleski • <a href="https://github.com/melindabain11-dev/resume" class="hover:text-white">GitHub Repo</a> • Hosted on GitHub Pages
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const t = document.querySelector(a.getAttribute('href'));
+                if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+            });
+        });
+    </script>
+</body>
+</html>
