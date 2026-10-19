@@ -2,7 +2,7 @@
 
 **Content Strategist & Generative AI Specialist**
 
-📍 Chesapeake, VA  •  📞 757-409-9474  •  ✉️ [MelindaMaleski@Gmail.com](mailto:MelindaMaleski@Gmail.com)
+📍 Chesapeake, VA  •  📞 757-406-5727  •  ✉️ [MelindaMaleski@gmail.com](mailto:MelindaMaleski@gmail.com)
 
 [🔗 LinkedIn](https://linkedin.com/in/melinda-maleski-23427b273)  •  [💻 CodeSignal](https://codesignal.com/learn/profile/cmkwr0gup000jjs04nm5frrdn)
 
@@ -34,8 +34,14 @@ Results-driven Content Strategist and Generative AI Specialist with a proven tra
 - Expert-level contributor and active skill-builder on CodeSignal (Expert in GenAI Capability Awareness & GenAI Limitation Awareness)
 - Ongoing freelance projects creating tailored content solutions aligned with client needs and AI trends
 
+### Retention Account Manager Specialist
+**ADT** | Remote | Aug 2026 – Present
+
+- Support existing customers by resolving concerns and finding solutions that keep their service working for them
+- Proposed an AI Foundations & Certification Pathway for frontline employees, approved by ADT's AI Governance Council and moved to the technology team for scoping
+
 ### Inbound Sales Representative
-**Cox Communications** | Chesapeake, VA | Feb 2018 – Present
+**Cox Communications** | Chesapeake, VA | Feb 2018 – Aug 2025
 
 - Consistently ranked among top performers; **2024 Top Inbound Sales Agent**; multiple Winner’s Circle and Circle of Excellence awards
 - Achieved record-breaking revenue attainment and significantly impacted overall COE East sales performance
