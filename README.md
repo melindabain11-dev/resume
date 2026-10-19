@@ -80,6 +80,6 @@ Results-driven Content Strategist and Generative AI Specialist with a proven tra
 
 ---
 
-*This resume is hosted on GitHub for easy sharing and version control. Feel free to fork or star!*
+*This resume is hosted on GitHub for easy sharing and version control.*
 
-**Download options:** [PDF](https://github.com/melindabain11-dev/resume/raw/main/Melinda_Maleski_Resume_2026.pdf) | [DOCX](https://github.com/melindabain11-dev/resume/raw/main/Melinda_Maleski_Resume_2026.docx) *(coming soon — you can upload them directly!)*
+**Download options:** [PDF](https://github.com/melindabain11-dev/resume/raw/main/Melinda_Maleski_Resume_2026.pdf) | [DOCX](https://github.com/melindabain11-dev/resume/raw/main/Melinda_Maleski_Resume_2026.docx)
